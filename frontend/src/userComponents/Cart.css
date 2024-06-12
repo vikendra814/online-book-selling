@@ -1,0 +1,19 @@
+.card {
+    border-radius: 0.5rem;
+  }
+  
+  .img-fluid {
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .input-group {
+    width: 150px;
+    margin: 0 auto;
+  }
+  
+  

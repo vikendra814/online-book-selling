@@ -1,0 +1,158 @@
+body {
+  background-color: #FFC470;
+}
+
+/* Categories */
+
+.cat-img {
+  width: 100px;
+  height: 100px;
+}
+
+.h5 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.text-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: rgb(24, 186, 105);
+  text-align: center;
+  background-color: white;
+}
+
+/* .text-link:hover,
+.text-link-sub:hover {
+  box-shadow: #FFC470;
+}
+
+.text-link:hover {
+  background-color: #FFC470 ;
+} */
+
+/* Sidebar */
+
+.left-bar {
+  height: 91vh;
+  border-right: 2px solid rgb(231, 228, 228);
+  overflow-y: auto;
+  background-color: #671fe484;
+  /* overflow-y: hidden; */
+}
+
+.right-con {
+  height: 91vh;
+  overflow-y: auto;
+}
+
+/* Product */
+
+.text-link-sub {
+  display: flex;
+  align-items: center;
+  color: hsl(202deg 45.45% 12.94%);
+  background-color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+.sub-cat-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.title {
+  font-size: 13px;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+.product-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.product-con {
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: hsl(202deg 45.45% 12.94%);
+  text-align: center;
+  background-color: white;
+}
+
+
+/* Navbar */
+.nav-item {
+  margin: auto 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #007bff;
+}
+/* .button:hover {
+  background-color: #dc3545;
+} */
+
+/* Login + Signup */
+#login-form {
+  display: block;
+  text-align: -webkit-center;
+}
+
+#exampleInputEmail1,#exampleInputProfile,
+#exampleInputPassword1 {
+  padding: 10px;
+}
+
+#login-btn {
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+
+.bi {
+  top: 6%;
+  right: 3%;
+  font-size: 150%;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+}
+
+.wrap-text {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.comment-user-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.label-username {
+  font-size: 16px;
+  color: rgb(41, 40, 40);
+  font-weight: 700;
+}
+
