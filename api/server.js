@@ -9,6 +9,8 @@ app.use(express.urlencoded({extended: true }));
 
 const cors = require("cors");
 app.use(cors());
+
+// Make an uploads folder -> Inside that create thumbnail and books folder in which the book pdf and thumbnail images will be stored respectively.
 app.use('/uploads', express.static(__dirname + '/uploads/thumbnail'));
 app.use('/profileUploads', express.static(__dirname + '/uploads/books'));
 
